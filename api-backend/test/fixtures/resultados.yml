@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  rodadaId: 1
+  partidaId: 1
+  resultado: MyString
+
+two:
+  rodadaId: 1
+  partidaId: 1
+  resultado: MyString

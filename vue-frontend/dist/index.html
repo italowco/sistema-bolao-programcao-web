@@ -1,0 +1,25 @@
+<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=icon href=favicon.ico><link rel=stylesheet href=//cdn.materialdesignicons.com/2.5.94/css/materialdesignicons.min.css><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.2.0/css/all.css><title>Bolão Maceió</title><link href=/css/app.efa9e361.css rel=preload as=style><link href=/js/app.7e9fe6db.js rel=preload as=script><link href=/js/chunk-vendors.7d63e7f0.js rel=preload as=script><link href=/css/app.efa9e361.css rel=stylesheet></head><body><noscript><strong>We're sorry but awesome-project doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=/js/chunk-vendors.7d63e7f0.js></script><script src=/js/app.7e9fe6db.js></script></body><script>document.addEventListener('DOMContentLoaded', () => {
+
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+      // Check if there are any navbar burgers
+      if ($navbarBurgers.length > 0) {
+
+        // Add a click event on each of them
+        $navbarBurgers.forEach( el => {
+          el.addEventListener('click', () => {
+
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+
+            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+            el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+
+          });
+        });
+      }
+
+    });</script></html>

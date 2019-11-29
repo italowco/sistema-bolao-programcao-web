@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  visitante: MyString
+  mandante: MyString
+
+two:
+  visitante: MyString
+  mandante: MyString
